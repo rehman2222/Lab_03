@@ -32,6 +32,9 @@ int main(int argc, char **argv) {
   if(agi <= 50000){
     tax = agi * 0.10;
     pritnf("%lf",tax);
+  }else if(agi <= 100000){
+    tax = 5000 +(agi - 50000) * 0.20;
+    printf("%lf",tax);
   }
 
   printf("AGI:          $%10.2f\n", agi);
