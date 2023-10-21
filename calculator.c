@@ -38,12 +38,15 @@ int main(int argc, char **argv) {
     printf("%f", result);
   } else if(choice == 3) {
     //TODO: handle this case (multiplication)
+    result = a * b ;
   } else if(choice == 4) {
     //TODO: handle this case (division)
+    result = a / b ;
   } else if(choice == 5) {
     //TODO: handle this case (minimum)
   } else if(choice == 6) {
     //TODO: handle this case (log_a(b))
+    result = log(a) / log(b);
   } else {
     printf("Please input a valid operator next time");
   }
